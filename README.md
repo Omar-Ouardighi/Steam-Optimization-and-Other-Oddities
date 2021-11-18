@@ -10,9 +10,12 @@ Aera’s method of hydrocarbon extraction is similar to methods developed elsewh
 ## Description of the Dataset
 Contestants will be supplied a data table with all the necessary inputs to build a model.
 ![image](https://images.ctfassets.net/yr01c1s2xcnk/3m2nM6hsv9kfsjb1BmmHme/72f8b1eb5524cdc559809999237c9599/Aera_column_descriptions.JPG)
+
+
 Some other considerations regarding this data:
 
-    A “sand” is an individual layer.  A “reservoir” is a family of sands that are adjacent and have similar properties.
+   -A “sand” is an individual layer.  
+   -A “reservoir” is a family of sands that are adjacent and have similar properties.
     Some sands may end before reaching an injector well which is why there are several NaN values for some of the columns. An NaN value means sand is not present.
     The distance from producing well to injectors is an important factor but instead of providing map locations, the dataset has relative distances between the nearest three injector wells.
 
