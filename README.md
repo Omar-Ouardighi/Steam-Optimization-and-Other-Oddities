@@ -19,5 +19,5 @@ Some other considerations regarding this data:
     Some sands may end before reaching an injector well which is why there are several NaN values for some of the columns. An NaN value means sand is not present.
     The distance from producing well to injectors is an important factor but instead of providing map locations, the dataset has relative distances between the nearest three injector wells.
 
-Target Output
+## Target Output
 The target variable for this competition is the PCT_DESAT_TO_ORIG. Models should predict this variable. Additionally we welcome creative visualizations or other analyses as detailed in the Evaluation Criteria.
